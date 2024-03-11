@@ -1,0 +1,10 @@
+#!/bin/bash
+import py_compile
+import os
+
+python_file = os.environ.get('PYFILE')
+
+if python_file:
+    py_compile.compile(python_file, cfile=python_file + 'c')
+else:
+    print("Error: Environment variable $PYFILE not set.")
