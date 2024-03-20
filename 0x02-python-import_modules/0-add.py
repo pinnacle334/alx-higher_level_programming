@@ -6,4 +6,4 @@ if __name__ == "__main__":
     a = 1
     b = 2
     z = add(a, b)
-    print(f"{a} + {b} = {z)}")
+    print(f"{a} + {b} = {z}\n")
